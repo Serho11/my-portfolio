@@ -94,9 +94,104 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 150%;
-    color: #211b12;;
+    color: #211b12;
 }
 
 .cv-icon {
     margin-left: 4px;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 48px;
+
+    /* line-height: 60px; */
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+    color: #bf7506;
+}
+
+.cards {
+    margin-top: 32px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.card-wrapper {
+    padding: 16px;
+}
+.card-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+
+    /* line-height: 32px; */
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    color: #bf7506;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    color: #211b12;
+}
+.tags-list {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 4px;
+}
+
+.tags-item {
+    border: 1px solid #dd9c3c;
+    border-radius: 4px;
+}
+
+.tags {
+    padding: 4px 8px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+
+    /* line-height: 18px; */
+    line-height: 1.5;
+    color: #211b12;
+}
+
+.card-buttons {
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.card-button {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    border-bottom: 2px solid #bf7506;
+    padding: 7px 8px;
+}
+
+.card-button-text {
+    margin-left: 4px;
+    font-weight: 700;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    color: #211b12;
 }
