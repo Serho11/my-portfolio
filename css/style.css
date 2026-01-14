@@ -1,5 +1,17 @@
 body {
     font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -113,7 +125,7 @@ body {
 
 .cards {
     margin-top: 32px;
-    margin-bottom: 120px;
+    margin-bottom: 116px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -127,6 +139,7 @@ body {
 .card-wrapper {
     padding: 16px;
 }
+
 .card-title {
     margin: 0;
     font-weight: 700;
@@ -146,6 +159,7 @@ body {
     line-height: 1.5;
     color: #211b12;
 }
+
 .tags-list {
     margin-top: 8px;
     margin-bottom: 16px;
@@ -194,4 +208,78 @@ body {
     /* line-height: 24px; */
     line-height: 1.5;
     color: #211b12;
+}
+
+.dev {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.dev-photo {
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 360px;
+    height: 440px;
+}
+
+.dev-about {
+    margin-left: 56px;
+}
+
+.dev-hello {
+    font-weight: 400;
+    font-size: 24px;
+
+    /* line-height: 32px; */
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    color: #211b12;
+}
+
+.dev-title {
+    margin: 4px 0px 16px;
+
+    font-weight: 700;
+    font-size: 32px;
+
+    /* line-height: 40px; */
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+    color: #bf7506;
+}
+
+.dev-text {
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+}
+
+.dev-quote {
+    margin: 16px 0px;
+    font-weight: 400;
+    font-size: 24px;
+
+    /* line-height: 36px; */
+    line-height: 1.5;
+    color: #bf7506;
+}
+
+.dev-sign {
+    max-width: 200px;
+    margin-top: 32px;
+}
+
+.skills{
+    padding: 20px 0px;
+}
+.skill-title {
+    font-weight: 700;
+    font-size: 24px;
+
+    /* line-height: 32px; */
+    line-height: 1.35;
+    letter-spacing: -0.02em;
 }
